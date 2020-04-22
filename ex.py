@@ -1,9 +1,9 @@
 def initials(phrase):
-    words = phrase.___
+    words = phrase.split()
     result = ""
     for word in words:
-        result += ___
-    return ___
+        result += word[0]
+    return result.upper()
 
     
 print(initials("Universal Serial Bus")) # Should be: USB
